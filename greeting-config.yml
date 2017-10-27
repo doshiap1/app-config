@@ -9,10 +9,11 @@ management:
 logging: # <----New sections below
   level:
     io:
-      pivotal: DEBUG
+      pivotal: INFO
 
 greeting:
   displayFortune: true
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
 quoteServiceURLNEW: http://quote-service-dev.cfapps.io/quoteNew
+quoteServiceURLNEW2: http://quote-service-dev.cfapps.io/quoteNew2
